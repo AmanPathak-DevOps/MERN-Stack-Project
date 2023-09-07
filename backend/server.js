@@ -3,7 +3,6 @@ const mysql = require('mysql2')
 const cors = require('cors');
 const dotenv=require('dotenv');
 dotenv.config();
-const odbc = require('odbc');
 
 const app = express()
 app.use(cors())
