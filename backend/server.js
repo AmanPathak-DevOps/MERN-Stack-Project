@@ -12,7 +12,10 @@ const db = mysql.createConnection({
     host: process.env.host,
     user: process.env.user,
     password: process.env.password,
-    database: process.env.database
+    database: process.env.database,
+    ssl: {
+      rejectUnauthorized: false
+    }
   });
 
 app.get('/', (re, res)=> {
@@ -214,5 +217,5 @@ app.post('/addstudent', async (req, res) => {
   
 
 app.listen(3500, ()=> {
-    console.log("listening");
+    console.log("listening on Port 3500");
 })
