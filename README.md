@@ -17,6 +17,7 @@ CREATE DATABASE school;
 ```
 USE school;
 ```
+```
 CREATE TABLE student (id INT AUTO_INCREMENT PRIMARY KEY, name varchar(40), roll_number int, class varchar(16));
 ```
 ```
