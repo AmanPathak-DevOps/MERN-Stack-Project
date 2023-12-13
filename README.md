@@ -14,13 +14,13 @@ MYSQL Configuration
 sh```
 CREATE DATABASE school;
 ```
-
+```
 USE school;
 ```
-
+```
 CREATE TABLE student (id INT AUTO_INCREMENT PRIMARY KEY, name varchar(40), roll_number int, class varchar(16));
 ```
-
+```
 CREATE TABLE teacher (id INT AUTO_INCREMENT PRIMARY KEY, name varchar(40), subject varchar(40), class varchar(16));
 ```
 
