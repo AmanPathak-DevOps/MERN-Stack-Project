@@ -31,11 +31,12 @@ Backend-
 Install nodejs
 npm install dotenv
 Modify the .env and do the changes for database
-
+```
 npm install -g pm2   
-
+```
+```
 pm2 start npm --name backend -- start
-
+```
 
 Frontend
 Modify the .env file and update the backend api endpoint 
