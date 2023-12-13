@@ -11,15 +11,18 @@ npm install express mysql cors nodemon
 
 
 MYSQL Configuration
-
+sh```
 CREATE DATABASE school;
-
+```
+sh```
 USE school;
-
+```
+sh```
 CREATE TABLE student (id INT AUTO_INCREMENT PRIMARY KEY, name varchar(40), roll_number int, class varchar(16));
-
+```
+sh```
 CREATE TABLE teacher (id INT AUTO_INCREMENT PRIMARY KEY, name varchar(40), subject varchar(40), class varchar(16));
-
+```
 
 
 
