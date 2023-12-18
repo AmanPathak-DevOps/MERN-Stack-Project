@@ -5,7 +5,7 @@ Install nodejs, reactjs
 https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/
 
 
-Start Backend
+Install dependencies
 ```
 npm install express mysql cors nodemon
 ```
